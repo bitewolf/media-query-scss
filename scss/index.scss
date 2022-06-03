@@ -1,0 +1,117 @@
+@import 'null';
+
+$lightgrey-color: #f7f7f7;
+$grey-color: #929292;
+$darkgrey-color: #848789;
+$lightblack-color: #4d4959;
+$black-color: #282f35;
+$green-color: #64c29e;
+$fs: 15px;
+$container-width: 1600px;
+$logo-margin: 120px 0 34px;
+$margin: 25px;
+
+.wrap {
+    font-family: 'Lato', sans-serif;
+    color: $black-color;
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+// @media (max-width: 1280px) {
+//     .container {
+//         max-width: 970px;
+//     }
+// }
+
+// @media (max-width: 992px) {
+//     .container {
+//         max-width: 750px;
+//     }
+// }
+
+// @media (max-width: 767px) {
+//     .container {
+//         max-width: 600px;
+//     }
+// }
+
+// @media (max-width: 580px) {
+//     .container {
+//         max-width: none;
+//     }
+// }
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    flex: 1 0 100%;
+}
+
+.header__parts {
+    flex: 1 0 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img/bg_2.jpg) center / cover no-repeat;
+}
+
+.header__menu-items {
+    font-size: $fs;
+}
+
+.logo {
+    margin: $logo-margin;
+}
+
+h2 {
+    font-size: $fs*1.2;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #353738;
+    margin-bottom: $margin;
+}
+  
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main__part-top {
+    text-align: center;
+}
+// .main__parts {
+//     max-width: 1600px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .main__part-top {
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     width: 100%;
+//     background: $lightgrey-color;
+// }
